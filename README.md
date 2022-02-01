@@ -10,18 +10,18 @@
 
   - http://127.0.0.1:8000/drivers/driver/?created_at__lte=31-01-2022
 
-  - http://127.0.0.1:8000/drivers/driver/<int:driver_id>/
+  - http://127.0.0.1:8000/drivers/driver/driver_id
 
 
 ## Endpoints Vehicles:
 
   - http://127.0.0.1:8000/vehicles/vehicle/
   
-  - http://127.0.0.1:8000/vehicles/vehicle/<int:vehicle_id>/
+  - http://127.0.0.1:8000/vehicles/vehicle/vehicle_id
 
   - http://127.0.0.1:8000/vehicles/vehicle/?with_drivers=yes
 
   - http://127.0.0.1:8000/vehicles/vehicle/?with_drivers=no
   
-  - http://127.0.0.1:8000/vehicles/set_driver/<pk>/
+  - http://127.0.0.1:8000/vehicles/set_driver/pk
 
